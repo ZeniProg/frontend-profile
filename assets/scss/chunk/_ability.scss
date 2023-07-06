@@ -1,0 +1,35 @@
+.ability {
+	padding: 100px 0 250px;
+	background-color: var(--pearl-white);
+
+	&__title {
+		margin: 0;
+		margin-bottom: 60px;
+		font-family: Montserrat, sans-serif;
+		font-weight: 800;
+		font-size: 72px;
+		text-align: center;
+		color: var(--signal-black);
+	}
+
+	&__blocks {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__btn {
+		width: 500px;
+		height: 500px;
+		font-family: Montserrat, sans-serif;
+		font-weight: 800;
+		font-size: 72px;
+		color: var(--light-color);
+		background-color: var(--gentian-blue);
+		transition: 0.4s;
+
+		&:hover {
+			background-color: var(--yellow-pink);
+		}
+	}
+}
