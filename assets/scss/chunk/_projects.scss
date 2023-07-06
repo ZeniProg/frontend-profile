@@ -1,0 +1,42 @@
+.projects {
+	padding: 100px 0 200px;
+	background-color: var(--gentian-blue);
+
+	&__title {
+		margin: 0;
+		margin-bottom: 100px;
+		font-family: Montserrat, sans-serif;
+		font-weight: 800;
+		font-size: 72px;
+		text-align: center;
+		color: var(--light-color);
+	}
+
+	&__block {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		margin-bottom: 120px;
+	}
+
+	&__img {
+		width: 760px;
+		height: auto;
+	}
+
+	&__subtitle {
+		margin: 0;
+		font-family: Montserrat, sans-serif;
+		font-weight: 800;
+		font-size: 64px;
+		color: var(--light-grey);
+	}
+
+	&__text {
+		margin: 0;
+		font-family: Roboto, sans-serif;
+		font-weight: 400;
+		font-size: 36px;
+		color: var(--light-grey);
+	}
+}
