@@ -9,7 +9,7 @@
 	}
 
 	&__wrap {
-		max-width: 605px;
+		max-width: 655px;
 	}
 
 	&__title {
@@ -18,6 +18,7 @@
 		font-family: Montserrat, sans-serif;
 		font-weight: 800;
 		font-size: 64px;
+		text-transform: uppercase;
 		color: var(--light-grey);
 	}
 
@@ -36,12 +37,14 @@
 		font-family: Inter, sans-serif;
 		font-weight: 700;
 		font-size: 40px;
+		text-transform: uppercase;
 		color: var(--dark-color);
 		background-color: var(--light-grey);
 		transition: 0.3s;
 
 		&:hover {
-			background-color: var(--light-color);
+			color: var(--light-color);
+			background-color: var(--yellow-pink);
 		}
 	}
 
